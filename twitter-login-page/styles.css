@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: normal;
+  margin-top: 12px;
+}
+
+img{
+  width: 12%;
+  margin-top: 6.5px;
+  margin-right: 12px;
+}
+
+#container{
+  width: 40%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#data{
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+}
+
+#textArea{
+  margin: 0 auto;
+  background-color: rgb(245, 248, 250);
+  font-size: 13.8px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top:  6px;
+  padding-bottom:  0px;
+  resize: none;
+  border-bottom: 2px solid rgb(101, 119, 134);
+  color: rgb(101, 119, 134);
+}
+
+#textArea:focus, input:focus, select:focus {
+  outline: 0;
+}
+
+#textArea:focus-within label {
+  color: rgb(29, 161, 242);
+}
+
+#textArea:focus-within{
+  border-bottom: 2px solid rgb(29, 161, 242);
+}
+
+#name{
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(245, 248, 250);
+  border: 3px rgb(245, 248, 250);
+  height: 30px;
+}
+
+#password{
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(245, 248, 250);
+  border: 3px rgb(245, 248, 250);
+  height: 30px;
+}
+
+#button{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  line-height: bold;
+  width: 100%;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:  15px;
+  padding-bottom:  15px;
+  margin-top: 2px;
+  border: rgb(151 208 248);
+  background-color: rgb(151 208 248);
+  cursor: pointer;
+  outline: none;
+}
+
+#button:hover {
+  background-color: rgb(29, 161, 242);
+}
+
+#link{
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+  font-size: 14px;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
