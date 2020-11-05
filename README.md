@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img  src="https://user-images.githubusercontent.com/47900225/98293050-742e3580-1f8c-11eb-9044-de45dd3e1977.png">
+  <img  src="https://user-images.githubusercontent.com/47900225/98304123-1efb1f80-1f9e-11eb-9346-33f0c4845e98.png">
 </p>
 
  <p align="center">
@@ -30,8 +30,8 @@
 
 ## :pushpin: Lista de Páginas
 <ul id="webclones_pages">
-    <li>Twitter :heavy_check_mark:</li>
-    <li>Jane Doe :heavy_check_mark:</li>
+    <li><a href="https://twitter-login-page.netlify.app/">Página de login do Twitter</a> :heavy_check_mark:</li>
+    <li><a href="https://j-doe.netlify.app/">Jane Doe</a> :heavy_check_mark:</li>
 </ul>  
 
 
