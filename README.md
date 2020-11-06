@@ -1,9 +1,4 @@
 
-
-<p align="center">
-  <img width="200" src="#">
-</p>
-
 <p align="center">
   <img  src="https://user-images.githubusercontent.com/47900225/98310412-9d11f300-1fab-11eb-8e94-9fe292be732d.png">
 </p>
