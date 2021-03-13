@@ -27,7 +27,7 @@
 <ul id="webclones_pages">
     <li><a href="https://twitter-login-page.netlify.app/">Página de login do Twitter</a> :heavy_check_mark:</li>
     <li><a href="https://j-doe.netlify.app/">Jane Doe</a> :heavy_check_mark:</li>
-    <li><a href="#">Busca do Google</a> :heavy_check_mark:</li>
+    <li><a href="https://googlec.netlify.app/">Busca do Google</a> :heavy_check_mark:</li>
 </ul>  
 
 
