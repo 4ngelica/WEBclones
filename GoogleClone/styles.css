@@ -1,0 +1,278 @@
+/*config inicial*/
+body{
+  width: 100%;
+  min-height:100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+
+/*header*/
+header{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color:#afaeac;
+}
+
+a{
+  text-decoration: none;
+}
+
+header a{
+  color:  #3a352e;
+}
+
+footer a {
+  color:  #868c8d;
+}
+
+a:hover{
+  text-decoration: underline;
+  color:   #868c8d;
+}
+
+.header-navbar ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar ul li{
+  display:inline;
+  padding-right: 0.7em;
+}
+
+.header-navbar ul li:last-child{
+  padding-right: 1.5em;
+}
+
+.header-navbar img{
+  border: solid 2px transparent;
+  border-radius: 20px;
+}
+
+/*container principal*/
+.main-container{
+  width: 32em;
+  margin: 0 auto;
+  text-align: center;
+  padding-top:15vh;
+}
+
+
+.main-container img{
+  width: 55%;
+  padding-bottom: 0;
+}
+
+.main-container button {
+  padding:0.7em 1.2em;
+  background-color:#f7f9fa;
+  border-style: none;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border: solid 1px #f7f9fa;
+  border-radius: 5px;
+  color:  #72707d;
+  outline:none;
+}
+
+.main-container button:hover {
+  background-color:#f7f9fa;
+  border: solid 1px #e7e9eb;
+  border-radius: 5px;
+  cursor:pointer;
+  -webkit-box-shadow: 0px 2px 1px -1px #e7e9eb;
+  box-shadow: 0px 2px 1px -1px #e7e9eb;
+}
+
+.share{
+  width: 90%;
+  display:flex;
+  justify-content: flex-end;
+  padding-top:0;
+  margin:0;
+  margin-bottom: 2.5em;
+}
+
+.share img{
+  width: 4.5%;
+}
+
+.search-icon img{
+  width: 40%;
+}
+
+.search{
+  width: 90%;
+  margin: 0 auto;
+  border: solid 2px #e7e9eb;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  padding:0.5em;
+}
+
+.search:hover{
+  -webkit-box-shadow: 0px 1px 2px 1px #e7e9eb;
+  box-shadow: 0px 1px 2px 1px #e7e9eb;
+}
+.search:focus-within{
+  -webkit-box-shadow: 0px 1px 2px 1px #e7e9eb;
+  box-shadow: 0px 1px 2px 1px #e7e9eb;
+}
+
+.search input{
+  width: 70%;
+  padding: 0.5em;
+  border: hidden;
+  outline:none;
+}
+
+.search-icon{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-icon:hover {
+  cursor:default;
+}
+
+.keyboard-icon{
+  width: 10%;
+}
+
+.keyboard-icon img{
+  width: 1.2em;
+  height: auto;
+}
+
+.keyboard-icon:hover {
+  cursor:pointer;
+}
+
+.microphone-icon{
+  width: 10%;
+}
+
+.microphone-icon img{
+  width: 1.4em;
+  height: auto;
+}
+
+.microphone-icon:hover{
+  cursor: pointer;
+}
+
+/*footer*/
+.footer-first-row{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.footer-first-row ul{
+  padding:0;
+  margin:0;
+}
+
+.footer-first-row ul li{
+  list-style: none;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-top: solid 1px  #dfe1e4;
+}
+
+.footer-second-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: solid 1px  #dfe1e4;
+}
+
+.first-navbar{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color:#f2f2f2;
+}
+
+.first-navbar ul{
+  padding:0;
+}
+
+.first-navbar ul li{
+  list-style: none;
+  display: inline;
+  padding-right: 1em;
+}
+.first-navbar ul li:first-child{
+  padding-left: 2em;
+}
+
+.second-navbar{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color:#f2f2f2;
+}
+
+.second-navbar ul{
+  padding:0;
+}
+
+.second-navbar ul li{
+  list-style: none;
+  display: inline;
+  padding-right: 1em;
+}
+
+.second-navbar ul li:last-child{
+  padding-right: 2em;
+}
+
+footer{
+  width: 100%;
+  padding:0;
+  margin: 0;
+  color:  #868c8d;
+  position: absolute;
+  bottom:0;
+  margin-top: 10vh;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-second-row{
+  flex-direction: column;
+  }
+
+  .first-navbar{
+    width: 100%;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    order:1;
+  }
+
+  .second-navbar{
+    width: 100%;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    order:0;
+  }
+}
+@media screen and (max-height: 600px) {
+  footer{
+    position: inherit;
+  }
+}
