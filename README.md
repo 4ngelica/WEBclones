@@ -21,6 +21,7 @@
 <ul id="webclones_techs">
     <li>HTML5</li>
     <li>CSS3</li>
+    <li>Javascript</li>
 </ul>  
 
 ## :pushpin: Lista de Páginas
